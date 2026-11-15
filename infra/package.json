@@ -1,0 +1,15 @@
+{
+  "name": "hid-liveness-infra",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": { "deploy": "cdk deploy --profile hid --require-approval never" },
+  "dependencies": {
+    "aws-cdk-lib": "^2.170.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.0.0"
+  }
+}
