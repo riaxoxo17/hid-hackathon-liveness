@@ -1,0 +1,11 @@
+node_modules/
+dist/
+cdk.out/
+__pycache__/
+.pytest_cache/
+.DS_Store
+# copied from node_modules by `npm install` in app/ (see app/scripts/copy-wasm.mjs)
+app/public/ort/
+app/public/mediapipe/
+# venue photos with other people in them
+WhatsApp Image*.jpeg
